@@ -66,7 +66,7 @@ products = [
     "FOOD-301-12.50",
     "BOOK-412-25.00",
     "PHONE-520-799.99",
-    "SPORT-210-89.90"
+    "SPORT-210-89.90",
 ]
 for product in products:
     item = product.split("-")
@@ -74,3 +74,4 @@ for product in products:
     print("ID" , item[1])
     print("Price" , item[2])
 
+print("this is end of today's exercise")
